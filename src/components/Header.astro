@@ -6,21 +6,16 @@ import { SITE } from "@consts";
 
 <header>
   <Container>
-    <div class="flex flex-wrap gap-y-2 justify-between">
+    <div class="flex flex-wrap gap-y-2 justify-between items-center">
       <Link href="/" underline={false}>
-        <div class="font-semibold">
+        <div class="font-semibold flex items-center gap-2 bg-clip-text bg-gradient-to-br from-pink-400 to-violet-900 text-transparent">
           {SITE.NAME}
         </div>
       </Link>
       <nav class="flex gap-1">
+     
         <Link href="/blog">
           blog
-        </Link>
-        <span>
-          {`/`}
-        </span>
-        <Link href="/work">
-          work
         </Link>
         <span>
           {`/`}
